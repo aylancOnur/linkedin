@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <img src="./assets/Logo.png" alt="linkedin logo" />
+      </div>
+      <div class="navbar__icons">
+          <div class="navbar__icons--item">
+            <img src="assets/icons/rss.svg" alt="rss" />
+            <p class="icon--text">Feed</p>
+            <div class="dropdown-content">
+              <a href="#">ITEM - 1</a>
+              <a href="#">ITEM - 2</a>
+              <a href="#">ITEM - 3</a>
+            </div>
+          </div>
+
+        <div class="navbar__icons--item">
+          <img src="assets/icons/users.svg" alt="rss" />
+          <p class="icon--text">Network</p>
+        </div>
+        <div class="navbar__icons--item">
+          <img src="assets/icons/briefcase.svg" alt="rss" />
+          <p class="icon--text">Jobs</p>
+        </div>
+        <div class="navbar__icons--item">
+          <img src="assets/icons/message.svg" alt="rss" />
+          <p class="icon--text">Chat</p>
+        </div>
+        <div class="navbar__icons--item">
+          <img src="assets/icons/bell.svg" alt="rss" />
+          <p class="icon--text">Notices</p>
+        </div>
+      </div>
+      <form class="search__area">
+        <img src="assets/icons/search.svg" alt="rss" />
+        <input type="text" placeholder="Search" />
+      </form>
+      <div class="profile">
+        <img class="profile__image" src="assets/profile.png" alt="profile image" />
+        <div class="profile__information">
+          <p class="profile__name">D. Kargaev</p>
+          <p class="profile__user">You</p>
+          <p class="profile__count">367 views today</p>
+          <p class="profile__statistic">
+            +32 <span>&#8599;</span>
+          </p>
+        </div>
+      </div>
+      <div class="other">
+        <img src="assets/icons/more.svg" alt="rss" />
+        <h2>Other</h2>
+      </div>
+    </nav>
+    <div class="grid">
+      <div class="sections">
+        <section class="user">
+          <div class="user__background">
+            <img
+              class="user__background--image"
+              src="assets/background-image.jpg"
+              alt="user background"
+            />
+            <div class="user__background--image--items">
+              <button>
+                <img src="assets/edit.png" alt="edit" />
+                <p>EDIT PROFILE</p>
+              </button>
+              <button>
+                <img src="assets/more-horizontal.png" alt="more" />
+              </button>
+            </div>
+          </div>
+          <div class="user__information">
+            <div class="user__information--container">
+              <div>
+                <img
+                  class="user__image"
+                  src="assets/userImage.png"
+                  alt="user image"
+                />
+              </div>
+              <div class="user__information--container-top">
+                <div class="user__information--top">
+                  <div class="user__information--name">
+                    <h2>Dmitry Kargaev</h2>
+                    <img src="assets/miniLogo.png" alt="mini logo" />
+                  </div>
+                  <div class="user__information--location">
+                    <img height="16" src="assets/arrow.png" alt="arrow" />
+                    <p>Saint Petersburg, Russian Federation</p>
+                  </div>
+                </div>
+                <p class="user__information--content">
+                  Freelance UX/UI designer, 80+ projects in web design, mobile
+                  apps (iOS & android) and creative projects. Open to offers.
+                </p>
+                <div class="user__information--buttons">
+                  <button>CONTACT INFO</button>
+                  <button class="outline">1,043 CONNECTIONS</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="tabs">
+          <button class="tabs__button active">PROFILE</button>
+          <button class="tabs__button">ACTIVITY & INTERESTS</button>
+          <button class="tabs__button">ARTICLES (3)</button>
+        </section>
+        <section class="about">
+          <h2>About</h2>
+          <p>
+            I'm more experienced in eCommerce web projects and mobile banking
+            apps, but also like to work with creative projects, such as landing
+            pages or unusual corporate websites.
+          </p>
+          <a>SEE MORE</a>
+        </section>
+        <section class="carousel">
+          <div class="carousel__header">
+            <h2>Projects</h2>
+            <p>3 of 12</p>
+          </div>
+          <div class="carousel">
+            <div class="nav nav-left">
+              <div class="ion-chevron-left carousel-arrow-icon-left">
+                <img src="assets/leftArrow.png" />
+              </div>
+            </div>
+    
+            <div class="carousel-content">
+              <div class="slide">
+                <img src="assets/ext.png" />
+                <h4>Zara redesign concept</h4>
+                <p>UX/UI design, 15.07.2019</p>
+              </div>
+              <div class="slide">
+                <img src="assets/ext2.png" />
+                <h4>Zara redesign concept</h4>
+                <p>UX/UI design, 15.07.2019</p>
+              </div>
+              <div class="slide">
+                <img src="assets/ext3.png" />
+                <h4>Zara redesign concept</h4>
+                <p>UX/UI design, 15.07.2019</p>
+              </div>
+            </div>
+    
+            <div class="nav nav-right">
+              <div class="ion-chevron-right carousel-arrow-icon-right">
+                <img src="assets/rightArrow.png" />
+              </div>
+            </div>
+          </div>
+          <a>SHOW ALL (12)</a>
+        </section>
+        <section class="skills">
+          <h2>Skills & Endoresments</h2>
+          <div class="skills__cards">
+            <div class="skills__cards--item">
+              <div class="skills__cards--header">
+                <h3>User experience (UX)</h3>
+                <p>6</p>
+              </div>
+              <div class="avatars">
+                <span class="avatar">
+                  <img src="assets/profile__picture/pic1.png" alt="profile picture" />
+                </span>
+                <span class="avatar">
+                  <img src="assets/profile__picture/pic2.png" alt="profile picture" />
+                </span>
+                <span class="avatar">
+                  <img src="assets/profile__picture/pic3.png" alt="profile picture" />
+                </span>
+                <span class="avatar">
+                  <img src="assets/profile__picture/pic4.png" alt="profile picture" />
+                </span>
+                <span class="avatar">
+                  <img src="assets/profile__picture/pic5.png" alt="profile picture" />
+                </span>
+                <span class="avatar">
+                  <img src="assets/profile__picture/pic6.png" alt="profile picture" />
+                </span>
+              </div>
+            </div>
+            <div class="skills__cards--item">
+              <div class="skills__cards--header">
+                <h3>User interface (UI)</h3>
+                <p>7</p>
+              </div>
+              <div class="avatars">
+                <span class="avatar">
+                  <img src="assets/profile__picture/pic7.png" alt="profile picture" />
+                </span>
+                <span class="avatar">
+                  <img src="assets/profile__picture/pic2.png" alt="profile picture" />
+                </span>
+                <span class="avatar">
+                  <img src="assets/profile__picture/pic8.png" alt="profile picture" />
+                </span>
+                <span class="avatar">
+                  <img src="assets/profile__picture/pic9.png" alt="profile picture" />
+                </span>
+                <span class="avatar">
+                  <img src="assets/profile__picture/pic5.png" alt="profile picture" />
+                </span>
+                <span class="avatar">
+                  <img src="assets/profile__picture/pic10.png" alt="profile picture" />
+                </span>
+              </div>
+            </div>
+            <div class="skills__cards--item">
+              <div class="skills__cards--header">
+                <h3>Brand Identity (UX)</h3>
+                <p>5</p>
+              </div>
+              <div class="avatars">
+                <span class="avatar">
+                  <img src="assets/profile__picture/pic11.png" alt="profile picture" />
+                </span>
+                <span class="avatar">
+                  <img src="assets/profile__picture/pic1.png" alt="profile picture" />
+                </span>
+                <span class="avatar">
+                  <img src="assets/profile__picture/pic4.png" alt="profile picture" />
+                </span>
+                <span class="avatar">
+                  <img src="assets/profile__picture/pic3.png" alt="profile picture" />
+                </span>
+                <span class="avatar">
+                  <img src="assets/profile__picture/pic12.png" alt="profile picture" />
+                </span>
+              </div>
+            </div>
+          </div>
+          <a>SHOW ALL (17)</a>
+        </section>
+        <section class="experience">
+          <h2>Experience</h2>
+          <div class="experience__info">
+            <img src="assets/world.png" alt="world" />
+            <div class="experience__info--content">
+              <h3>Freelance UX / UI designer</h3>
+              <div class="info__p--tags">
+                <p class="info__p--tags-one">Self Employed</p>
+                <p class="info__p--tags-two">Around the world</p>
+              </div>
+              <div class="info__p--tags-second">
+                <p class="info__p--tags-second-one">Jun 2016 - Present</p>
+                <p class="info__p--tags-second-two">3 yrs 3 mos</p>
+              </div>
+              <p>
+                Work with clients and web studios as freelancer. Work in next areas:
+                eCommerce web projects; creative landing pages; iOs and Android
+                apps; corporate web sites and corporate identity sometimes.
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div class="experience__info">
+            <img src="assets/up.png" alt="up" />
+            <div class="experience__info--content">
+              <h3>UX / UI designer</h3>
+              <div class="info__p--tags">
+                <p class="info__p--tags-one">Upwork</p>
+                <p class="info__p--tags-two">International</p>
+              </div>
+              <div class="info__p--tags-second">
+                <p class="info__p--tags-second-one">Jun 2019 - Present</p>
+                <p class="info__p--tags-second-two">3 mos</p>
+              </div>
+              <p>
+                New experience with Upwork system. Work in next areas: UX/UI design,
+                graphic design, interaction design, UX research.
+              </p>
+            </div>
+          </div>
+        </section>
+        <Education />
+      </div>
+      <div class="sidebars">
+        <section class="dashboard">
+          <div class="dashboard__header">
+            <h3>YOUR DASHBOARD</h3>
+            <a>GO TO STATS</a>
+          </div>
+          <hr />
+          <div class="dashboard__statistics">
+            <h2>367</h2>
+            <p>views today</p>
+          </div>
+          <div class="dashboard__statistics">
+            <h2>15</h2>
+            <p>post views</p>
+          </div>
+          <div class="dashboard__statistics">
+            <h2>9</h2>
+            <p>search appereances</p>
+          </div>
+        </section>
+        <section class="visitors">
+          <div class="visitors__header">
+            <h3>VISITORS</h3>
+            <a>VIEW ALL</a>
+          </div>
+          <hr />
+          <div class="visitors__info">
+            <img src="assets/profile__picture/pic13.png" alt="visitor's picture" />
+            <div class="visitors__info--content">
+              <h3>Darlane Black</h3>
+              <p>HR-manager, 10,000 connec...</p>
+            </div>
+          </div>
+          <div class="visitors__info">
+            <img src="assets/profile__picture/pic14.png" alt="visitor's picture" />
+            <div class="visitors__info--content">
+              <h3>Theresa Steward</h3>
+              <p>IOS Developer</p>
+            </div>
+          </div>
+          <div class="visitors__info">
+            <img src="assets/profile__picture/pic15.png" alt="visitor's picture" />
+            <div class="visitors__info--content">
+              <h3>Brandon Wilson</h3>
+              <p>Senior UX Designer</p>
+            </div>
+          </div>
+          <div class="visitors__info">
+            <img src="assets/profile__picture/pic16.png" alt="visitor's picture" />
+            <div class="visitors__info--content">
+              <h3>Kyle Fisher</h3>
+              <p>Product designer at Com...</p>
+            </div>
+          </div>
+          <div class="visitors__info">
+            <img src="assets/profile__picture/pic17.png" alt="visitor's picture" />
+            <div class="visitors__info--content">
+              <h3>Audrey Alexander</h3>
+              <p>Team lead at Google</p>
+            </div>
+          </div>
+        </section>
+        <section class="recomendations">
+          <div class="recomendations__header">
+            <h3>YOU MAY LIKE THESE COURSES</h3>
+          </div>
+          <hr />
+          <div class="recomendations__videos">
+            <img src="assets/video1.png" alt="video" />
+            <div class="recomendations__videos--content">
+              <h2>UX Foundations: Prototyping</h2>
+              <p>27,959 viewers</p>
+            </div>
+          </div>
+          <div class="recomendations__videos">
+            <img src="assets/video2.png" alt="video" />
+            <div class="recomendations__videos--content">
+              <h2>Designing with Adobe XD and pro</h2>
+              <p>9,122 viewers</p>
+            </div>
+          </div>
+          <div class="recomendations__videos">
+            <img src="assets/video3.png" alt="video" />
+            <div class="recomendations__videos--content">
+              <h2>UX Foundations: Styles and GUIs</h2>
+              <p>13,858 viewers</p>
+            </div>
+          </div>
+          <a>SEE ALL RECOMENDATIONS</a>
+        </section>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__logo">
+        <img src="assets/Logo.png" alt="logo" />
+        <p>
+          Linked<span>In</span>
+        </p>
+      </div>
+      <div class="footer__navigation">
+        <h4>Navigation</h4>
+        <div class="footer__navigation--items">
+          <div class="footer__navigation--left">
+            <h6>About</h6>
+            <h6>Careers</h6>
+            <h6>Advertising</h6>
+            <h6>Small Business</h6>
+          </div>
+          <div class="footer__navigation--mid">
+            <h6>Talent Solutions</h6>
+            <h6>Marketing Solutions</h6>
+            <h6>Sales Solutions</h6>
+            <h6>Safery Center</h6>
+          </div>
+          <div class="footer__navigation--right">
+            <h6>Community Guidelines</h6>
+            <h6>Privacy & Terms</h6>
+            <h6>Mobile App</h6>
+          </div>
+        </div>
+      </div>
+      <div class="footer__access">
+        <h4>Fast access</h4>
+        <button class="footer__access--button">
+          QUESTIONS?
+          <span>
+            <img src="assets/help.png" alt="help" />
+          </span>
+        </button>
+        <button class="footer__access--button outline">
+          SETTINGS
+          <span>
+            <img src="assets/settings.png" alt="settings" />
+          </span>
+        </button>
+      </div>
+      <div class="footer__language">
+        <h4>Language</h4>
+        <select>
+          <option value="0">ENGLISH</option>
+          <option value="1">TURKISH</option>
+          <option value="2">SPANISH</option>
+        </select>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+    <script src="./slider.js"></script>
+  </body>
+</html>
